@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta name="description" content="page description here">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width" initial-scale=1>
+    <title></title>
+    <style type="text/css">
+      body{
+        color: red;
+        background-color: black;
+      }
+      video{
+        padding: 5px 5px 5px 100px;
+      }
+    </style>
+    <script>
+      function myFunction(){
+        var x = document.getElementById("fname");
+        x.value = x.value.toUpperCase();
+      }
+    </script>
+  </head>
+  <body>
+    <p>THIS IS SIMPLE HTML DOCUMENT.</p>
+    <p>This javascript function will capitalize my name:</p>
+    <p>Enter your name <input type="text" id="fname" onchange="myFunction()"></p>
+    <p>This is line 1.<br> THis is line 2. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This is line 3.</p>
+    <h1> Header 1</h1>
+    <h2> Header 2</h2>
+    <h3> Header 3</h3>
+    <h4> Header 4 </h4>
+
+    <p>
+      <strong>Bold Text</strong><br>
+      <em>Italic Text</em><br>
+      <u>Underlined text</u><br>
+      <strike>Strike Text </strike><br>
+      <em><strong><u><strike>Bold, Italic, Underlined Text</strike></u></strong></em>
+    </p>
+
+    <h3> My Favourite sports</h3>
+    <ul>
+      <li>Football</li>
+      <li>Cricket</li>
+      <li>Hockey</li>
+      <li>Swimming</li>
+    </ul>
+
+    <h2>My Favourite vaccation</h2>
+    <ol>
+      <li>Miami, FL</li>
+      <li>New York, NY</li>
+      <li>Lost vegas</li>
+    </ol>
+
+    <h1>Earth Pictures.</h1>
+
+    <p>
+      <a href="http://www.nasa.gov"><img src="E!.jpg" alt="E1" width="300"></a>
+      <!--relative file referencing-->
+      <a href="http://www.nasa.gov">
+        <img src="E2.jpg" alt="E2" width="300">
+        <img src="E3.jpg" alt="E3" width="300">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTuTqvoyl5oibhilwjTVUKViZxu9dNH5uE1g&usqp=CAU" alt="E4">
+      </a>
+
+      <!--absolute file referencing-->
+    </p>
+
+    <video src="ya.mp4" autoplay controls width="50%">
+    </video>
+
+    <p>
+      <a href="http://www.nasa.gov" target="_blank">nasa.gov</a> <br>
+      <a href="http://www.google.com" target="_blank">google.com</a> <br>
+
+    </p>
+
+
+  </body>
+</html>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <p id="bool"></p>
+    <script type="text/javascript">
+      var a = Boolean(-1);
+      var b = Boolean(2);
+      var c = Boolean("true");
+      var d = Boolean(0);
+
+      document.getElementById('bool').innerHTML = "-1 bool is "+a+"<br>2 bool is "+b+" <br>true bool is "+c+ "<br>0 bool is "+d;
+    </script>
+  </body>
+</html>

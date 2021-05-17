@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <p id="add"></p>
+    <p id="add2"></p>
+    <p id="sub"></p>
+    <p id="div"></p>
+    <p id="inc"></p>
+    <p id="dec"></p>
+    <script type="text/javascript">
+      var x = 100 + 20;
+      document.getElementById('add').innerHTML = x;
+      var a = 3;
+      var b = (20+30) * a;
+      document.getElementById('add2').innerHTML = b;
+      document.getElementById('sub').innerHTML = b - a;
+      document.getElementById('div').innerHTML = x / a;
+      a++;
+      document.getElementById('inc').innerHTML = a;
+      a--;
+      document.getElementById('dec').innerHTML = a;
+
+    </script>
+  </body>
+</html>

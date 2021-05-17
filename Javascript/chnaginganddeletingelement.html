@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <p id="change"></p>
+    <script type="text/javascript">
+      //deleting and replacing some element.
+      var fruits = ["apple", "orange", "mango", "banana"];
+      fruits[0] = "Kiwi";
+      delete fruits[0];
+      document.getElementById('change').innerHTML = fruits.join(" ");
+    </script>
+  </body>
+</html>

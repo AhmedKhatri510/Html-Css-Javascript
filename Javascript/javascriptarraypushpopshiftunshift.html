@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <p id="func"></p>
+    <br><br><br><br>
+    <h1>Decription of the array function </h1>
+    <p>pop() remove the last element
+    </p>
+    <p>shift() remove the first element</p>
+    <p>push() add the element in the end</p>
+    <p>unshift() add element in the start</p>
+
+
+
+    <script type="text/javascript">
+      var fruits = ["apple", "orange", "mango", "banana"];
+      fruits.unshift("Grape");
+      document.getElementById('func').innerHTML = fruits.join(" ");
+    </script>
+
+  </body>
+</html>
